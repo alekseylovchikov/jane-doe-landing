@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Grid</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="/img/favicon.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="main-head">
+      <nav>
+        <h1 id="logo">Jane Doe</h1>
+        <!-- <input type="checkbox" class="menu-check" /> -->
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+          <span class="line1"></span>
+          <span class="line2"></span>
+          <span class="line3"></span>
+        </div>
+        <div class="red"></div>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-introduction flex">
+          <h2>Jane Doe<br />Photography</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae culpa
+            perspiciatis quis est delectus pariatur voluptates recusandae,
+            dolorem soluta doloribus?
+          </p>
+          <a href="#gallery">Gallery</a>
+        </div>
+        <div class="hero-images">
+          <img
+            class="hero-elena"
+            src="/img/elena-joy.png"
+            alt="picture of jane doe"
+          />
+          <img src="/img/plant1.png" alt="" class="plant1 plant" />
+          <img src="/img/plant2.png" alt="" class="plant2 plant" />
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="about-image">
+          <h5>MINIMAL</h5>
+          <img src="/img/elena.jpg" alt="portrait-picture" />
+        </div>
+        <div class="about-text flex">
+          <h2>Jane Doe</h2>
+          <div class="about-life">
+            <h3>My Life</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit
+              alias sit adipisci velit eaque deserunt quisquam assumenda.
+            </p>
+          </div>
+          <div class="about-work">
+            <h3>My Work</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit
+              alias sit adipisci velit eaque deserunt quisquam assumenda dolores
+              sequi. Atque?
+            </p>
+          </div>
+          <div class="about-contact">
+            <h3>Get in touch</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit
+              alias sit adipisci velit eaque deserunt quisquam assumenda dolores
+              sequi.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="gallery" id="gallery">
+        <header class="gallery-head">
+          <h2>Quality Photography</h2>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </header>
+        <img src="/img/1.jpg" alt="man in suit" class="gallery-1" />
+        <img src="/img/2.jpg" alt="lady in coat" class="gallery-2" />
+        <img src="/img/3.jpg" alt="lady in t-shirt" class="gallery-3" />
+        <img src="/img/4.jpg" alt="lady in jacket" class="gallery-4" />
+      </section>
+      <section class="contact" id="contact">
+        <div class="form-wrapper flex">
+          <h2>Get in<br /><span>touch.</span></h2>
+          <form>
+            <label for="email">Email</label>
+            <input type="email" id="email" required />
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <img src="/img/contact-image.jpg" alt="elena-joy" />
+      </section>
+    </main>
+    <footer class="footer">
+      <h4>Jane Doe &copy; 2021</h4>
+      <ul>
+        <li>
+          <a href="#"><img src="/img/youtube-symbol 1.svg" alt="youtube" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="/img/twitter 1.svg" alt="twitter" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="/img/instagram 1.svg" alt="instagram" /></a>
+        </li>
+      </ul>
+    </footer>
+    <script src="/app.js"></script>
+  </body>
+</html>
